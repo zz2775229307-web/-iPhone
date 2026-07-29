@@ -1,0 +1,32 @@
+{
+  "date": "2026-07-29",
+  "summary": "本日市场：iPhone 12 64GB 出现回落，低于 p10 水平出现捡漏机会；iPhone 11 供给略增，成交价小幅上升。",
+  "models": [
+    {
+      "key": "iphone12-64",
+      "name": "iPhone 12 64GB",
+      "median_price": 1200,
+      "lowest_price": 999,
+      "trend": -0.03,
+      "recommended": true,
+      "history": [
+        { "date": "2026-07-29", "price": 1200 },
+        { "date": "2026-07-22", "price": 1224 },
+        { "date": "2026-07-15", "price": 1188 }
+      ]
+    },
+    {
+      "key": "iphone11-64",
+      "name": "iPhone 11 64GB",
+      "median_price": 800,
+      "lowest_price": 700,
+      "trend": 0.02,
+      "recommended": false,
+      "history": [
+        { "date": "2026-07-29", "price": 800 },
+        { "date": "2026-07-22", "price": 784 },
+        { "date": "2026-07-15", "price": 792 }
+      ]
+    }
+  ]
+}

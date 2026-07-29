@@ -1,0 +1,25 @@
+<!-- index.wxml -->
+<view class="container">
+  <view class="header">
+    <text class="title">{{summaryTitle}}</text>
+    <button class="refresh" bindtap="onRefresh">刷新</button>
+  </view>
+
+  <view class="summary">{{summary}}</view>
+
+  <view class="models">
+    <block wx:for="{{models}}" wx:key="key">
+      <view class="card" bindtap="openDetail" data-key="{{item.key}}">
+        <view class="card-row">
+          <text class="model-name">{{item.name}}</text>
+          <text class="price">¥{{item.median_price}}</text>
+        </view>
+        <view class="card-row sub">
+          <text>最低 ¥{{item.lowest_price}}</text>
+          <text class="trend">{{item.trendDisplay}}</text>
+          <text wx:if="{{item.recommended}}" class="recommend">推荐入手</text>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

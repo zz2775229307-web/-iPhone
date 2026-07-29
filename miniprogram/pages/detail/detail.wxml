@@ -1,0 +1,21 @@
+<!-- detail.wxml -->
+<view class="container">
+  <view class="header">
+    <button class="back" bindtap="onBack">返回</button>
+    <text class="title">{{model.name}}</text>
+  </view>
+
+  <view class="info">
+    <text>中位价：¥{{model.median_price}}</text>
+    <text>最低价：¥{{model.lowest_price}}</text>
+    <text>趋势：{{model.trendDisplay}}</text>
+    <text wx:if="{{model.recommended}}">建议：推荐入手</text>
+  </view>
+
+  <view class="history">
+    <text class="heading">历史价格（模拟）</text>
+    <block wx:for="{{history}}" wx:key="index">
+      <view class="hist-row">{{item.date}}  ¥{{item.price}}</view>
+    </block>
+  </view>
+</view>

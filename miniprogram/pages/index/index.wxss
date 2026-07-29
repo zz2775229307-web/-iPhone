@@ -1,0 +1,51 @@
+/* index.wxss */
+.container {
+  padding: 18px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.refresh {
+  font-size: 12px;
+}
+.summary {
+  background: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.card {
+  background: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.card-row {
+  display: flex;
+  justify-content: space-between;
+}
+.model-name {
+  font-weight: 600;
+}
+.price {
+  color: #ff4d4f;
+}
+.sub {
+  margin-top: 8px;
+  color: #999;
+  font-size: 13px;
+}
+.trend {
+  margin-left: 10px;
+}
+.recommend {
+  color: #1890ff;
+  margin-left: 10px;
+}
