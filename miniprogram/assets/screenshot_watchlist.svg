@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="375" height="667" viewBox="0 0 375 667">
+  <rect width="100%" height="100%" fill="#f6f7fb" />
+  <rect x="12" y="12" rx="10" ry="10" width="351" height="56" fill="#ffffff" />
+  <text x="24" y="46" font-family="Arial" font-size="18" fill="#000">今日摘要（2026-07-29）</text>
+
+  <rect x="12" y="78" rx="10" ry="10" width="351" height="86" fill="#fff" />
+  <text x="24" y="110" font-family="Arial" font-size="13" fill="#333">本日市场：iPhone 12 64GB 价格回落，出现捡漏机会；iPhone 11 成交小幅上升。</text>
+
+  <!-- Watchlist cards -->
+  <rect x="12" y="180" rx="10" ry="10" width="351" height="72" fill="#ffffff" />
+  <text x="24" y="215" font-family="Arial" font-size="16" fill="#000">iPhone 12 64GB</text>
+  <text x="290" y="215" font-family="Arial" font-size="18" fill="#ff4d4f">¥1200</text>
+  <text x="24" y="237" font-family="Arial" font-size="12" fill="#999">最低 ¥999 · ↑3.0% · 推荐</text>
+
+  <rect x="12" y="264" rx="10" ry="10" width="351" height="72" fill="#ffffff" />
+  <text x="24" y="299" font-family="Arial" font-size="16" fill="#000">iPhone 11 64GB</text>
+  <text x="290" y="299" font-family="Arial" font-size="18" fill="#ff4d4f">¥800</text>
+  <text x="24" y="321" font-family="Arial" font-size="12" fill="#999">最低 ¥700 · ↓2.0% · 观察</text>
+
+  <!-- Quick actions footer -->
+  <rect x="12" y="560" rx="10" ry="10" width="351" height="56" fill="#fff" />
+  <text x="30" y="595" font-family="Arial" font-size="14" fill="#1890ff">+ 添加关注  ·  设置提醒  ·  全部机型</text>
+</svg>
