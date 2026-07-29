@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="375" height="667" viewBox="0 0 375 667">
+  <rect width="100%" height="100%" fill="#f6f7fb" />
+  <rect x="12" y="20" rx="10" ry="10" width="351" height="44" fill="#ffffff" />
+  <text x="24" y="48" font-family="Arial" font-size="16" fill="#000">iPhone 12 64GB</text>
+  <rect x="12" y="80" rx="10" ry="10" width="351" height="110" fill="#ffffff" />
+  <text x="24" y="110" font-family="Arial" font-size="14" fill="#333">中位价：¥1200</text>
+  <text x="24" y="132" font-family="Arial" font-size="14" fill="#333">最低价：¥999</text>
+  <text x="24" y="154" font-family="Arial" font-size="14" fill="#333">趋势：↓3.0%</text>
+  <text x="24" y="176" font-family="Arial" font-size="14" fill="#1890ff">建议：推荐入手</text>
+
+  <!-- History -->
+  <rect x="12" y="200" rx="10" ry="10" width="351" height="320" fill="#ffffff" />
+  <text x="24" y="232" font-family="Arial" font-size="14" fill="#333">历史价格（模拟）</text>
+  <text x="24" y="260" font-family="Arial" font-size="13" fill="#666">2026-07-29  ¥1200</text>
+  <text x="24" y="286" font-family="Arial" font-size="13" fill="#666">2026-07-22  ¥1224</text>
+  <text x="24" y="312" font-family="Arial" font-size="13" fill="#666">2026-07-15  ¥1188</text>
+
+  <!-- Back button -->
+  <rect x="12" y="540" rx="8" ry="8" width="90" height="36" fill="#1890ff" />
+  <text x="36" y="565" font-family="Arial" font-size="14" fill="#fff">返回</text>
+</svg>
