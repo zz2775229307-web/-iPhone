@@ -1,0 +1,19 @@
+演示视频生成说明（快速参考）
+
+生成示例（在仓库根目录）：
+
+# 确保依赖存在
+sudo apt install -y imagemagick ffmpeg
+
+# 运行生成脚本
+bash demo/generate_video.sh
+
+# 如果需要把字幕合进去，请先录制语音并保存为 demo/voiceover.mp3
+# 录音示例（macOS）:
+#   - 使用 QuickTime 或 Terminal 中的 `sox` / `rec` 命令录制，再导出为 mp3
+
+常见问题：
+- ImageMagick convert 报错：请检查 ImageMagick 版本或使用 rsvg-convert（librsvg）替代。
+- ffmpeg 无法识别尺寸：检查 RESIZE 格式，或把 -vf "scale=..." 改为 -s 750x1334。
+
+需要我替你把 demo/voiceover.mp3 生成（通过 TTS）并合成最终 MP4 吗？注意：我当前不能直接生成或上传音频文件到仓库，但我可以提供 TTS 命令或示例（例如使用 Google Cloud TTS、macOS say、或本地开源 TTS）。
